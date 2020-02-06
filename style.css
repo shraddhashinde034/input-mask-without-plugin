@@ -1,0 +1,44 @@
+/*Common CSS START*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+.zero_all {
+    padding: 0;
+    margin: 0;
+}
+
+.pos_rel {
+    padding: 50px 0;
+    position: relative;
+}
+
+.pos_rel input {
+    font-size: 24px;
+    line-height: 60px;
+    padding: 0 15px;
+    letter-spacing: 7px;
+    height: auto;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+}
+
+.pos_rel input:focus {
+    outline: none;
+}
+
+input#input_box {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: transparent;
+}
